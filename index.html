@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Landing page</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -17,45 +17,65 @@
       <div class="navigation">
         <div class="logo">Header Logo</div>
         <ul class="links">
-          <li><a href="#"></a>header link one</li>
-          <li><a href="#"></a>header link two</li>
-          <li><a href="#"></a>header link three</li>
+          <li>
+            <a href="https://github.com/megabyt3s/odin-landing-page"
+              >header link one</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.theodinproject.com/lessons/foundations-landing-page"
+              >header link two</a
+            >
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/html/html_quotation_elements.asp"
+              >header link three</a
+            >
+          </li>
         </ul>
       </div>
 
-      <div class="hero-contents">
-        <div class="hero-text">
-          <h1>This website is awesome</h1>
-          <p>
+      <div class="hero-container">
+        <div class="hero-left">
+          <h1 class="hero-title">This website is awesome</h1>
+          <p class="hero-subtext">
             This website has some subtext that goes here under the this is a
             placeholder for an image main title. It's a smaller font and the
             color is lower contrast
           </p>
-          <button class="btn-sign-up">Sign up</button>
+          <button class="btn">Sign up</button>
         </div>
-
         <div class="hero-image">this is a placeholder for image</div>
       </div>
     </header>
 
     <section class="info-sec">
-      <h2>Some random information.</h2>
-      <div class="subtexts">
-        <div class="subtext-one">
+      <h2 class="info-header">Some random information.</h2>
+      <div class="box-containers">
+        <div class="box">
           <div class="subtext-box"></div>
-          <p>this is some subtext under an illustration or image</p>
+          <p class="subtext">
+            this is some subtext under an illustration or image
+          </p>
         </div>
-        <div class="subtext-two">
+        <div class="box">
           <div class="subtext-box"></div>
-          <p>this is some subtext under an illustration or image</p>
+          <p class="subtext">
+            this is some subtext under an illustration or image
+          </p>
         </div>
-        <div class="subtext-three">
+        <div class="box">
           <div class="subtext-box"></div>
-          <p>this is some subtext under an illustration or image</p>
+          <p class="subtext">
+            this is some subtext under an illustration or image
+          </p>
         </div>
-        <div class="subtext-four">
+        <div class="box">
           <div class="subtext-box"></div>
-          <p>this is some subtext under an illustration or image</p>
+          <p class="subtext">
+            this is some subtext under an illustration or image
+          </p>
         </div>
       </div>
     </section>
@@ -67,19 +87,19 @@
           it's just filling up space, or maybe people will actually read it. Who
           knows? All I know is that it looks nice.
         </blockquote>
-        <p>-Thor, God of Thunder</p>
+        <p class="author">-Thor, God of Thunder</p>
       </div>
     </section>
 
     <section class="call-to-act-sec">
       <div class="call-to-act-box">
         <div class="call-to-action-text">
-          <h3>Call to action! It's time!</h3>
-          <p>
+          <h3 class="tagline">Call to action! It's time!</h3>
+          <p class="text">
             Sign up for our product by clicking that button right over there!
           </p>
         </div>
-        <button class="btn-outline">Sign up</button>
+        <button class="btn btn-outline">Sign up</button>
       </div>
     </section>
 
